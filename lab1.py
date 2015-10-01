@@ -19,18 +19,20 @@ def vowel_or_consonant():
     """
     letter = raw_input("Enter letter: ")
 
-    if letter == "a":
-        print("It is a vowel.")
+    if letter == "y":
+        print("sometimes a vowel, sometimes a consonant")
+    elif letter == "a":
+        print("vowel")
     elif letter == "e":
-        print("It is a vowel.")
+        print("vowel")
     elif letter == "i":
-        print("It is a vowel.")
+        print("vowel")
     elif letter == "o":
-        print("It is a vowel.")
+        print("vowel")
     elif letter == "u":
-        print("It is a vowel.")
+        print("vowel")
     else:
-        print ("It is a consonent.")
+        print ("consonant")
 
-vowel_or_consonant()
+#vowel_or_consonant()
 
